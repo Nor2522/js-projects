@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: c1c1c1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+}
+#container {
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  color: #fff;
+  width: 600px;
+  min-width: 410px;
+  height: 20rem;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  text-align: center;
+  padding: 80px 0px;
+  z-index: 2;
+}
+h1 {
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  background: linear-gradient(to right, rgb(66, 66, 255), rgb(61, 239, 61));
+  color: transparent;
+  background-clip: text;
+}
+#password {
+  width: 300px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 1rem;
+  padding: 12px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+#copy {
+  background-color: rgb(53, 117, 5);
+  color: #fff;
+  width: 55px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+#copy:hover {
+  background-color: rgba(0, 255, 0, 0.655);
+}
+#generate {
+  display: block;
+  margin: 30px auto;
+  width: 6rem;
+  height: 40px;
+  background: linear-gradient(
+    45deg,
+    rgba(0, 208, 255, 0.516),
+    rgba(58, 123, 213, 0.516)
+  );
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: bold;
+}
+#generate:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 105, 251, 0.1);
+}
+
+/* background effects */
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  filter: blur(50px);
+}
+.top {
+  position: relative;
+  top: -120px;
+  left: 120px;
+  background-color: #00f;
+}
+.bottom {
+  position: relative;
+  top: 120px;
+  right: 120px;
+  background: #0f0;
+}
+#msg {
+  color: #fff;
+  background-color: rgba(3, 118, 3, 0.294);
+  width: 20em;
+  height: 40px;
+  padding-top: 10px;
+  position: relative;
+  top: 14em;
+  margin: 5px auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 22px 0 #0f0;
+  font-size: 1em;
+  font-weight: bold;
+  display: none;
+}
