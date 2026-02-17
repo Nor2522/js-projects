@@ -14,8 +14,8 @@ Halkan ka hel mashaariicda oo leh link-yo toos ah oo aad ku tijaabin karto (Live
 
 | Project Name | Description | Tech Stack | Live Demo |
 | :--- | :--- | :--- | :--- |
-| 🔑 **Password Generator** | Wuxuu kuu dhisayaa passwords adag oo ammaan ah. | HTML, CSS, JS | [**View Live ↗️**](https://nor2522.github.io/js-projects/Js-Projects/P1-Password-Generator/) |
-| 🚧 **More Coming Soon** | Mashruucyo cusub ayaa ku soo socda... | - | *Pending* |
+| 🔑 **Password Generator** | Wuxuu kuu dhisayaa passwords adag oo ammaan ah. | HTML, CSS, JS | [**View Live ↗️**](https://nor2522.github.io/js-projects/P1-Password-Generator/) |
+| 🚧 **HTML Converter** | Waa mid ka mid ah projects ka ugu logica adag ee aan regex ku dhisay | HTML, CSS, JS |  [**View Live ↗️**](https://nor2522.github.io/js-projects/P2-P2-htmlConverter/) |
 
 ---
 
