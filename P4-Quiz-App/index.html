@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="container">
+      <div class="start-screen active" id="start-screen">
+        <h1>Quiz App</h1>
+        <p>Welcome to the Quiz App! Click Start to begin.</p>
+        <button id="start-btn">Start Quiz</button>
+      </div>
+
+      <!-- questions screen -->
+      <div class="questions-container hidden" id="questions-container">
+        <h1 id="question">Question Title</h1>
+        <div class="question-info">
+          <p>
+            question<span id="q-count">1</span>of<span id="total-q">5</span>
+          </p>
+          <p>score: <span id="score">0</span></p>
+        </div>
+        <!-- answers container -->
+        <div class="answer-container" id="answer-container">
+          <button class="answer-btn">Answer</button>
+          <button class="answer-btn">Answer</button>
+          <button class="answer-btn">Answer</button>
+          <button class="answer-btn">Answer</button>
+        </div>
+        <!-- progress -->
+        <div id="progress"><div id="progress-bar"></div></div>
+      </div>
+      <!-- result screen -->
+      <div class="result-screen hidden" id="result-screen">
+        <h1>Quiz Results</h1>
+        <div class="result-info">
+          <p>
+            Your final score is: <span id="final-score">0</span> out of
+            <span id="max-score">5</span>
+          </p>
+          <div class="final-msg" id="result-msg">good effort! keep learning!</div>
+        </div>
+        <button id="restart-btn">Restart Quiz</button>
+      </div>
+    </main>
+  </body>
+</html>
