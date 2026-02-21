@@ -3,10 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quiz App</title>
+    <title>Modern Quiz App</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <button id="theme-toggle" class="theme-toggle">🌙 Dark Mode</button>
     <main id="container">
       <div class="start-screen active" id="start-screen">
         <h1>Quiz App</h1>
@@ -14,26 +19,31 @@
         <button id="start-btn">Start Quiz</button>
       </div>
 
-      <!-- questions screen -->
       <div class="questions-container hidden" id="questions-container">
-        <h1 id="question">Question Title</h1>
         <div class="question-info">
           <p>
-            question<span id="q-count">1</span>of<span id="total-q">5</span>
+            Question <span id="q-count">1</span> of <span id="total-q">5</span>
           </p>
-          <p>score: <span id="score">0</span></p>
+          <p>Score: <span id="score">0</span></p>
         </div>
-        <!-- answers container -->
+
+        <h1 id="question">Question Title</h1>
+
         <div class="answer-container" id="answer-container">
-          <button class="answer-btn">Answer</button>
-          <button class="answer-btn">Answer</button>
-          <button class="answer-btn">Answer</button>
-          <button class="answer-btn">Answer</button>
+          <button class="answer-btns">Answer 1</button>
+          <button class="answer-btns">Answer 2</button>
+          <button class="answer-btns">Answer 3</button>
+          <button class="answer-btns">Answer 4</button>
         </div>
-        <!-- progress -->
-        <div id="progress"><div id="progress-bar"></div></div>
+
+        <!-- <div id="progress"><div id="progress-bar"></div></div> -->
+        <div id="progress">
+          <div id="progress-bar">
+            <div id="flame" class="flame"></div>
+          </div>
+        </div>
       </div>
-      <!-- result screen -->
+
       <div class="result-screen hidden" id="result-screen">
         <h1>Quiz Results</h1>
         <div class="result-info">
@@ -41,10 +51,13 @@
             Your final score is: <span id="final-score">0</span> out of
             <span id="max-score">5</span>
           </p>
-          <div class="final-msg" id="result-msg">good effort! keep learning!</div>
+          <div class="final-msg" id="result-msg">
+            Good effort! Keep learning!
+          </div>
         </div>
         <button id="restart-btn">Restart Quiz</button>
       </div>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
