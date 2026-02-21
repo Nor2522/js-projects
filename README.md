@@ -12,7 +12,7 @@ Halkan ka hel mashaariicda oo leh link-yo toos ah oo aad ku tijaabin karto (Live
 | :--- | :--- | :--- | :--- |
 | 🔑 **Password Generator** | Wuxuu kuu dhisayaa passwords adag oo ammaan ah. | HTML, CSS, JS | [**View Live ↗️**](https://nor2522.github.io/js-projects/P1-Password-Generator/) |
 | 🚧 **HTML Converter** | Waa mid ka mid ah projects ka ugu logica adag ee aan regex ku dhisay. | HTML, CSS, JS | [**View Live ↗️**](https://nor2522.github.io/js-projects/P2-htmlConverter/) |
-| 🌙 **Islamic Quiz App** | Quiz diini ah oo leh **Shumac (Flame)** progress bar ah, Dark Mode, iyo 3D Glassmorphism. | HTML, CSS, JS | [**View Live ↗️**](https://nor2522.github.io/js-projects/P3-Islamic-Quiz-App/) |
+| 🌙 **Islamic Quiz App** | Quiz diini ah oo leh **Shumac (Flame)** progress bar ah, Dark Mode, iyo 3D Glassmorphism. | HTML, CSS, JS | [**View Live ↗️**](https://nor2522.github.io/js-projects/P3-Quiz-App/) |
 
 ---
 
